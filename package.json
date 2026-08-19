@@ -1,0 +1,12 @@
+{
+  "name": "edushield-ai",
+  "version": "1.0.0",
+  "description": "EduShield AI – Academic Dropout Prediction & Intervention System",
+  "scripts": {
+    "start": "node start-all.js",
+    "start:frontend": "cd frontend && npm run dev",
+    "start:backend": "cd backend && node server.js",
+    "start:ml": "cd ml-service && .\\.venv\\Scripts\\python.exe -m uvicorn main:app --port 8000",
+    "share": "node share.js"
+  }
+}

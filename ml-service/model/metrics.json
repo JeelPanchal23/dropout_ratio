@@ -1,0 +1,42 @@
+{
+  "model": "Random Forest Classifier",
+  "version": "v1.0.0",
+  "dataset": "Synthetic Demonstration Dataset (N=2000)",
+  "accuracy": 0.8625,
+  "precision": 0.8632,
+  "recall": 0.8625,
+  "f1_score": 0.8626,
+  "confusion_matrix": [
+    [
+      163,
+      23,
+      0
+    ],
+    [
+      27,
+      160,
+      1
+    ],
+    [
+      0,
+      4,
+      22
+    ]
+  ],
+  "feature_importances": {
+    "attendance_percentage": 0.10873259633748264,
+    "current_gpa": 0.20379614178156752,
+    "previous_gpa": 0.103137689055155,
+    "assignment_completion": 0.05951300604659155,
+    "quiz_score": 0.07507013853995204,
+    "lms_activity": 0.03723891439631121,
+    "study_hours": 0.05286178118061268,
+    "failed_subjects": 0.1093704196816145,
+    "backlog_count": 0.07007697126990103,
+    "engagement_score": 0.08739615920643205,
+    "scholarship_status": 0.00423693439663148,
+    "financial_support_needed": 0.003844786504126663,
+    "attendance_trend": 0.04288505147173342,
+    "academic_trend": 0.041839410131888244
+  }
+}
